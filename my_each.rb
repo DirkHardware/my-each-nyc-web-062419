@@ -9,4 +9,4 @@ def yield_test
   yield
 end
 
-test {puts 2**2}
+yield_test {puts 2**2}
